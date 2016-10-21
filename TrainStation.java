@@ -27,8 +27,8 @@ public class TrainStation
         public void ticketVenta()
     {
         maquina1.insertarDinero(300);
-        maquina2.insertarDinero(200);
         maquina1.imprimirTicket();
+        maquina2.insertarDinero(200);
         maquina2.imprimirTicket();
     }
 }
